@@ -110,6 +110,9 @@ a:hover :active{
   }
 }
 
+.menu-links{
+    color:var(--navbar-color)
+}
 
 .top-container{
     display: flex;
@@ -531,4 +534,5 @@ textarea {
     .day-slot[role="cell"]:nth-child(8)::before { content: "Sun: "; }
 
 }
+
 
