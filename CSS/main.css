@@ -23,6 +23,7 @@ body{
     background-color: var(--primary-color);
     color: var(--text-color);
     font-family: "Red Hat Display";
+    line-height: 1.5;
 }
 
 h1{
@@ -528,4 +529,5 @@ textarea {
     .day-slot[role="cell"]:nth-child(6)::before { content: "Fri: "; }
     .day-slot[role="cell"]:nth-child(7)::before { content: "Sat: "; }
     .day-slot[role="cell"]:nth-child(8)::before { content: "Sun: "; }
+
 }
