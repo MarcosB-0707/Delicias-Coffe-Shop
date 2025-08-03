@@ -53,16 +53,16 @@ hr{
 
 
 a{
-    color: white;
+    color: var(--secondary-text-color);
 }
 
-a :visited{
-    color: lightgrey;
+a :visited{ 
+    color: var(--secondary-text-color);
 }
 
 
-a:hover :active{
-    color: #eee;
+a:hover :active{  
+    color: var(--secondary-text-color);
 }
 
 .navbar {
@@ -531,3 +531,4 @@ textarea {
     .day-slot[role="cell"]:nth-child(8)::before { content: "Sun: "; }
 
 }
+
